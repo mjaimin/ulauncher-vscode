@@ -1,0 +1,21 @@
+{
+    "id": "com.github.yourusername.ulauncher-gvim",
+    "name": "Open Files in GVim",
+    "description": "A Ulauncher extension to open files in GVim.",
+    "version": "0.0.1",
+    "author": "Your Name",
+    "email": "your.email@example.com",
+    "homepage": "https://github.com/yourusername/ulauncher-gvim",
+    "keywords": ["gvim", "vim", "file", "editor"],
+    "preferences": [
+      {
+        "id": "file_path",
+        "type": "directory",
+        "name": "Files Path",
+        "default": "~/",
+        "required": true,
+        "description": "Default path to search for files"
+      }
+    ]
+  }
+  
